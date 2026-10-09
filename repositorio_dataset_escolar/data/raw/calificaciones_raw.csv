@@ -1,0 +1,64 @@
+matricula,nombre,sexo,carrera,materia,periodo,parcial1,parcial2,asistencia_pct
+A005,  Diego Romero ,masculino,Ing. Sistemas,Matemáticas,2024-2,87,76,80
+A024,Karla Garza,Femenino,Contaduría,Bases de Datos,2024-1,NA,95,85
+A018,SOFÍA ORTIZ,Femenino,Ing. Sistemas,Bases de Datos,2024-1,,81,98
+A020,Camila Moreno,Femenino,Contaduría,PROGRAMACIÓN,2024-1,82,71,89
+A012,Raúl Vázquez,masculino,Administración,Matemáticas,2024-2,79,86,
+A015,Adrián Ramos,masculino,Contaduria,Matemáticas,2024-2,64,81,89
+A022,Daniela Díaz,F,Sistemas,Bases de Datos,2024-1,66,57,87
+A029,  Andrea Morales ,F,Sistemas,Bases de Datos,2024-1,68,61,78
+A030,DIANA RAMÍREZ,,Sistemas,BASES DE DATOS,2024-2,"84,6",80,94
+A002,  Luis Gutiérrez ,H,Administración,Matemáticas,2024-1,64,73,80
+A010,Alejandro Gómez,Masculino,Sistemas,Bases de Datos,2024-2,60,79,85
+A011,iván mendoza,masculino,Administración,Bases de Datos,2024-1,79,71,73
+A003,Miguel Sánchez,M,Ing. Sistemas,Matemáticas,2024-1,88,,100
+A011,Iván Mendoza,Masculino,Administración,Inglés,2024-1,"77,6",68,
+A030,diana ramírez,F,Ing. Sistemas,Matemáticas,2024-2,81,,99%
+A024,KARLA GARZA,F,CONTADURIA,Programación,2024-1,72,88,85
+A005,Diego Romero,M,Sistemas,Programación,2024-2,70,82,
+A014,Pablo Pérez,H,Sistemas,Inglés,2024-1,66,150,90
+A019,Valeria Chávez,femenino,Administración,Programación,2024-1,55,48,60
+A028,Lucía Hernández,Femenino,Administración,Matemáticas,2024-1,62,48,84
+A008,  Ricardo Castillo ,masculino,Contaduría,inglés ,2024-1,NA,60,75
+A022,Daniela Díaz,F,Sistemas,Programación,2024-1,58,72,100
+A021,Fernanda Reyes,Femenino,ADMINISTRACIÓN,INGLÉS,2024-1,69,76,90
+A016,María López,F,Sistemas,inglés ,2024-2,91,98,88
+A025,MARIANA MARTÍNEZ,F,Administración,Inglés,2024-1,99,77,95
+A012,Raúl Vázquez,M,Administración,Programación,2024-2,70,94,93
+A026,Ximena González,F,Sistemas,Programación,2024-2,58,59,91
+A008,Ricardo Castillo,Masculino,Contaduria,PROGRAMACIÓN,2024-1,,62,85%
+A001,Carlos Salinas,Masculino,sistemas,Bases de Datos,2024-2,83,"87,9",88
+A016,maría lópez,Femenino,Sistemas,Matemáticas,2024-2,82,77,76
+A027,REGINA AGUILAR,Femenino,ADMINISTRACIÓN,Programación,2024-2,76,82,99
+A006,andrés jiménez,H,Sistemas,Bases de Datos,2024-1,74,84,79
+A004,Jorge Herrera,masculino,Contaduría,matemáticas ,2024-1,56,51,83%
+A002,Luis Gutiérrez,M,Administración,inglés ,2024-1,66,,83
+A021,Fernanda Reyes,Mujer,Administración,Bases de Datos,2024-1,73,75,90
+A027,Regina Aguilar,Femenino,Administración,matemáticas ,2024-2,,74,87%
+A016,María López,F,Sistemas,inglés ,2024-2,91,98,88
+A030,diana ramírez,F,Ing. Sistemas,Matemáticas,2024-2,81,,99%
+A011,Iván Mendoza,Masculino,Administración,Inglés,2024-1,"77,6",68,
+A020,  Camila Moreno ,F,Contaduría,Inglés,2024-1,83,,80
+A019,valeria chávez,femenino,Administración,Inglés,2024-1,64,71,86
+A006,  Andrés Jiménez ,M,Ing. Sistemas,Inglés,2024-1,83,82,92
+A001,Carlos Salinas,Masculino,sistemas,programación ,2024-2,87,89,90
+A029,Andrea Morales,F,Sistemas,Matemáticas,2024-1,,66,72
+A018,Sofía Ortiz,F,Sistemas,Programación,2024-1,99,80,100
+A003,Miguel Sánchez,Masculino,Sistemas,BASES DE DATOS,2024-1,97,76,87
+A023,Paola Cruz,Mujer,Administración,Matemáticas,2024-2,NA,49,79
+A026,Ximena González,F,Sistemas,Bases de Datos,2024-2,89,73,90
+A017,Ana García,F,Sistemas,Inglés,2024-1,87,94,83%
+A025,Mariana Martínez,femenino,Administración,Programación,2024-1,83,79,120
+A015,Adrián Ramos,masculino,Contaduría,Inglés,2024-2,64,70,76%
+A023,Paola Cruz,Femenino,Administración,Programación,2024-2,63,64,87
+A013,Hugo Flores,M,Contaduría,Programación,2024-2,66,71,76
+A010,Alejandro Gómez,Masculino,Sistemas,Programación,2024-2,"73,4",72,89
+A004,Jorge Herrera,H,Contaduria,Inglés,2024-1,69,92,80
+A017,Ana García,femenino,Sistemas,Matemáticas,2024-1,73,91,99
+A007,fernando rodríguez,M,Administración,Matemáticas,2024-2,89,92,96
+A007,Fernando Rodríguez,Masculino,Administración,Inglés,2024-2,96,100,100
+A028,  Lucía Hernández ,Mujer,ADMINISTRACIÓN,Programación,2024-1,"44,4",,120
+A009,DANIEL MEDINA,Masculino,Sistemas,Bases de Datos,2024-1,73,70,99
+A014,PABLO PÉREZ,Masculino,Sistemas,Matemáticas,2024-1,63,68,88%
+A009,Daniel Medina,Masculino,Ing. Sistemas,Programación,2024-1,82,84,90
+A013,Hugo Flores,Masculino,Contaduría,Matemáticas,2024-2,,64,89
