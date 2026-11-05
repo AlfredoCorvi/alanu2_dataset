@@ -1,28 +1,38 @@
-# Monitoreo de condiciones meteorológicas para operaciones agrícolas
+# Monitoreo meteorológico para operaciones agrícolas
 
-**Equipo 5 · Extracción de Conocimientos de Bases de Datos**  
-**Fase 1: obtención y revisión inicial del dataset**
+**Equipo 5 · Unidad 2 · Preparación de los datos**
 
-## Caso de estudio
+## Caso de estudio y objetivo
 
-Una cooperativa agrícola necesita identificar periodos de lluvia, heladas y temperaturas extremas para apoyar la planificación de sus actividades. El proyecto utiliza observaciones meteorológicas diarias por estación del Instituto Real de Meteorología de los Países Bajos (KNMI).
+Una cooperativa agrícola necesita identificar periodos de lluvia, heladas y temperaturas extremas para planificar sus actividades.
 
-## Objetivo
+Este proyecto prepara datos meteorológicos del KNMI para desarrollar posteriormente un dashboard con consultas por estación y periodo.
 
-Preparar una base de datos meteorológicos que permita analizar las condiciones registradas por fecha y estación. En etapas posteriores se realizará la transformación de los datos y su carga en un data warehouse con esquema estrella.
+## Dataset
 
-## Contenido de esta fase
+- **Periodo:** 2016–2025.
+- **Estaciones:** 30.
+- **Registros:** 109,497.
+- **Variables principales:** temperatura, precipitación, humedad, viento y evapotranspiración.
+- **Granularidad:** una observación por estación y fecha disponible.
 
-El archivo `dataset_original_consolidado.csv` reúne los registros descargados en una tabla. Conserva las unidades y los códigos de las variables de origen. No se rellenaron las celdas vacías con datos aleatorios.
+## Contenido del repositorio
 
-| Característica | Resultado |
-|---|---|
-| Periodo global | 1 de enero de 2016 al 31 de diciembre de 2025 |
-| Estaciones | 30 |
-| Registros | 109,497 |
-| Columnas | 11 |
-| Granularidad | Una observación diaria por estación |
-| Formato | CSV |
-| Clave de cada registro | `STN` + `YYYYMMDD` |
+- `dataset_crudo.csv`: datos consolidados con unidades y códigos originales.
+- `dataset_agricola_diario_2016_2025.csv`: datos preprocesados e indicadores derivados.
+- `descargar_knmi_diario.py`: script de extracción y preparación.
+- `knmi_*.txt`: archivos originales del KNMI.
 
-Estas cifras corresponden al CSV revisado para esta entrega. El periodo global no implica que todas las estaciones tengan la misma cobertura.
+## Preparación de datos
+
+El script utiliza **Python, pandas y requests** para descargar y consolidar los datos, validar fechas y duplicados, convertir unidades y generar indicadores de heladas y calidad.
+
+Los faltantes se conservan como nulos y los valores extremos no se eliminan automáticamente, porque pueden representar fenómenos meteorológicos reales. Los resultados se almacenan en archivos CSV.
+
+## Estado del proyecto
+
+Este repositorio corresponde al avance de preparación de datos. El Data Warehouse está diseñado; su implementación y el desarrollo del dashboard son las siguientes etapas.
+
+## Fuente
+
+[Datos meteorológicos diarios del KNMI](https://www.knmi.nl/nederland-nu/klimatologie/daggegevens/)
